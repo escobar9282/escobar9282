@@ -5,7 +5,7 @@ public class Main {
         String numbers = "";
         for(int i = 0; i < 16; ++i)
             numbers += Character.toUpperCase(Character.forDigit(i, 16));
-        System.out.print("Numbers of semiquaver system: ");
+        System.out.print("Numbers of semiquaver system (hexadecimal system): ");
         System.out.println(numbers);
     }
 }
