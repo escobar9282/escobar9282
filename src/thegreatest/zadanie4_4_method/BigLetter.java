@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Locale;
 
 class BigLetter {
-    private String typo;
+    private final String typo;
 
     protected BigLetter(String typo) {
         this.typo = typo;
